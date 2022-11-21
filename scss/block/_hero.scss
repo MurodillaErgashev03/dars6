@@ -357,13 +357,21 @@
     }
 
     @media screen and (max-width: 536px) {
-        .choose__box {
-            width: 327px;
+        .choose {
+            width: 270px;
             height: 902px;
-            margin-left: auto;
-            margin-right: auto;
+            margin-left: 0;
+            margin-right: 0;
         }
-
+        .container{
+            width: 327px;
+            height: auto;
+        }
+           .choose__box{
+            padding: 0;
+            margin-left : 24px;
+            margin-right: 24px;
+           }
         .choose__text {
             display: none;
         }
