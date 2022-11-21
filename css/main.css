@@ -228,8 +228,6 @@ body {
 /*section-2*/
 .collection {
   margin-left: 100px;
-  max-width: 1111px;
-  height: 525px;
 }
 
 .collection__box {
@@ -243,14 +241,15 @@ body {
 .collection__contant {
   position: absolute;
   margin-top: -70px;
-  /*section-3*/
 }
-.collection__contant .collection__item {
+
+.collection__item {
   max-width: 256px;
   height: 400px;
   margin-left: 40px;
 }
-.collection__contant .collection__title {
+
+.collection__title {
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
@@ -261,11 +260,13 @@ body {
   margin-top: 71px;
   margin-bottom: 24px;
 }
-.collection__contant .collection__list {
+
+.collection__list {
   display: flex;
   margin-left: -40px;
 }
-.collection__contant .collection__text {
+
+.collection__text {
   font-family: "Barlow";
   font-style: normal;
   font-weight: 400;
@@ -274,39 +275,41 @@ body {
   text-align: center;
   color: #333D4B;
 }
+
 @media screen and (max-width: 819px) {
-  .collection__contant .collection__item {
+  .collection__item {
     display: flex;
     max-width: 573px;
     text-align: center;
     max-width: 573px;
     height: 193px;
   }
-  .collection__contant .collection__list {
+  .collection__list {
     display: flex;
     max-width: 573px;
     flex-direction: column;
   }
-  .collection__contant .collection__title {
+  .collection__title {
     margin-top: 40px;
     text-align: left;
     font-size: 24px;
     line-height: 32px;
   }
-  .collection__contant .collection {
+  .collection {
     margin-left: 30px;
   }
-  .collection__contant .collection__text {
+  .collection__text {
     text-align: left;
     font-size: 15px;
     line-height: 25px;
   }
-  .collection__contant .collection__box {
+  .collection__box {
     max-width: 688px;
     height: 196px;
   }
 }
-.collection__contant .choose {
+/*section-3*/
+.choose {
   max-width: 1280px;
   height: 577px;
   background: #2C343E;
@@ -316,10 +319,12 @@ body {
   border-radius: 15px;
   margin-bottom: 350px;
 }
-.collection__contant .choose__box-1 {
+
+.choose__box-1 {
   padding-top: 100px;
 }
-.collection__contant .choose__title {
+
+.choose__title {
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
@@ -328,7 +333,8 @@ body {
   text-align: center;
   color: #FEFCF7;
 }
-.collection__contant .choose__text {
+
+.choose__text {
   max-width: 540px;
   margin-top: 32px;
   font-family: "Barlow";
@@ -343,25 +349,29 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.collection__contant .choose__item {
+
+.choose__item {
   width: 350px;
   height: 382px;
   background: #0E8784;
   border-radius: 8px;
   margin-left: 30px;
 }
-.collection__contant .choose__img {
+
+.choose__img {
   width: 71px;
   height: 72px;
   margin-top: 72px;
   margin-left: 136px;
 }
-.collection__contant .choose__list {
+
+.choose__list {
   margin-top: 86px;
   display: flex;
   margin-left: 35px;
 }
-.collection__contant .choose__item-title {
+
+.choose__item-title {
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
@@ -372,7 +382,8 @@ body {
   margin-top: 56px;
   margin-bottom: 24px;
 }
-.collection__contant .choose__item-text {
+
+.choose__item-text {
   font-family: "Barlow";
   font-style: normal;
   font-weight: 400;

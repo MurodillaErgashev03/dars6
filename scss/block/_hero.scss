@@ -101,8 +101,6 @@
 /*section-2*/
 .collection {
     margin-left: 100px;
-    max-width: 1111px;
-    height: 525px;
 }
 
 .collection__box {
@@ -117,6 +115,7 @@
 .collection__contant {
     position: absolute;
     margin-top: -70px;
+}
 
 .collection__item {
     max-width: 256px;
@@ -279,5 +278,4 @@
     color: #FEFCF7;
     max-width: 255px;
     margin: 0 auto;
-}
 }
